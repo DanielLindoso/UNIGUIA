@@ -16,7 +16,7 @@ public class TesteBackend {
         // 1. TESTE DE AUTENTICAÇÃO (LOGIN)
         System.out.println("1️⃣  TESTANDO AUTENTICAÇÃO DE USUÁRIO...");
         UsuarioDAO usuarioDAO = new UsuarioDAO();
-        Usuario usuario = usuarioDAO.autenticar("daniel@uniguia.com", "123456");
+        Usuario usuario = usuarioDAO.autenticar("vitor@uniguia.com", "123456");
 
         if (usuario != null) {
             System.out.println("✅ Login bem-sucedido!");
